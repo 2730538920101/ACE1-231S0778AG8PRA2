@@ -15,14 +15,21 @@ void loop() {
   // put your main code here, to run repeatedly:
   
   PosActual = Mover45grados();
+  delay(5000);
   MoverPosicionInicio(PosActual);
+  delay(5000);
   PosActual = Mover90grados();
+  delay(5000);
   MoverPosicionInicio(PosActual);
+  delay(5000);
   PosActual = Mover135grados();
+  delay(5000);
   MoverPosicionInicio(PosActual);
+  delay(5000);
   PosActual = Mover180grados();
+  delay(5000);
   MoverPosicionInicio(PosActual);
-
+  delay(5000);
 }
 
 void MoverPosicionInicio(int actual){
